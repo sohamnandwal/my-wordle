@@ -1,0 +1,56 @@
+<html>
+
+<head>
+    <title>My Wordle!</title>
+    <link href="styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <h1 class="head">My Wordle Game</h1>
+    <h3></h3>
+    <h3>The <i>classic</i> Wordle Game remade by SokaNanD.</h3>
+    <hr>
+    <h2><u>General Features</u></h2>
+    <h3>Guess a 5-letter word randomly chosen from a huge database </h3>
+    <h3>Get 6 attempts to guess the word </h3>
+    <h3>After each guess, the color of the letters will change to give hints
+        <ul>
+            <li>Green: The letter is in the word and in the correct position</li>
+            <li>Yellow: The letter is in the word but in the incorrect position</li>
+            <li>Grey: The letter is not in the word</li>
+        </ul>
+    </h3>
+    <h3>Feeling Excited ???</h3>
+    <button id="start-btn" onclick="startGame()">Play Game</button>
+
+    <hr>
+    <h3>The main functionality of the game is as follows:
+    <ul>
+        <li> The grid is made using 2 for loops that add the divs automatically </li>
+        <li> The input is made automatic rather than a text input using the DOM eventlistener </li>
+        <li> Words taken randomly from a huge dataset I found on <a href="https://gist.github.com/dracos/dd0668f281e685bad51479e5acaadb93">Github</a></li>
+        <li > Win streaks stored using localStorage</li>
+
+    </ul> </h3>
+
+    <hr>
+    <h3>My Learnings
+    <ul>
+        <li>Adding HTML elements using JavaScript</li>
+        <li>Direct Input from Keypresses rather than TextInput</li>
+        <li>Relative widths and placing in grid using css</li>
+        <li>Working with localStorage of simple websites</li>
+
+    </h3>
+    <hr>
+    <h3> SokaNanD</h3>
+
+    <script>
+        function startGame() {
+            window.location.href = "game.html";
+        }
+    </script>
+</body>
+
+</html>
