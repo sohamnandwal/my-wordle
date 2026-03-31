@@ -1,4 +1,4 @@
-## My Wordle Game
+# My Wordle Game
 
 The classic Wordle Game remade by SokaNanD.
 
@@ -32,6 +32,11 @@ After each guess, the color of the letters will change to give hints
 
 # Current Problems
 One problem that I was unable to fix was to find a way to read the local valid-wordle-words.txt file in js. I tried using fs but was unable to use require hence i used fetch with the vscode live server. Still finding ways to solve the issue.
+
+---
+
+# How to Run
+As mentioned, currently the website runs only on a local server, hence use the vscode liveserver extenstion to run it or an npm server would also suffice.
 
 ---
 
